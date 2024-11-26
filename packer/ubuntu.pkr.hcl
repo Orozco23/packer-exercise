@@ -45,7 +45,7 @@ build {
       "sudo systemctl enable nodeapp",
       "sudo systemctl start nodeapp",
       "sudo cp /var/www/nodejs_app/nodejs-app/nginx.conf /etc/nginx/sites-available/nodejs_app",
-      "sudo ln -s /etc/nginx/sites-available/node_app /etc/nginx/sites-enabled/",
+      "sudo ln -s /etc/nginx/sites-available/nodejs_app /etc/nginx/sites-enabled/",
       "sudo rm /etc/nginx/sites-enabled/default",
       "sudo nginx -t",
       "sudo systemctl restart nginx"
