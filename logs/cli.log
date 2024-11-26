@@ -1,0 +1,125 @@
+{
+    "ReservationId": "r-0c29f3af03eef26dd",
+    "OwnerId": "727192091970",
+    "Groups": [],
+    "Instances": [
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [],
+            "ClientToken": "45d875d8-6072-4132-8e6e-164d52e41690",
+            "EbsOptimized": false,
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "NetworkInterfaces": [
+                {
+                    "Attachment": {
+                        "AttachTime": "2024-11-26T05:41:42+00:00",
+                        "AttachmentId": "eni-attach-07b750fbca439a5c9",
+                        "DeleteOnTermination": true,
+                        "DeviceIndex": 0,
+                        "Status": "attaching",
+                        "NetworkCardIndex": 0
+                    },
+                    "Description": "",
+                    "Groups": [
+                        {
+                            "GroupId": "sg-0934e9aab8c89096a",
+                            "GroupName": "launch-wizard-1"
+                        }
+                    ],
+                    "Ipv6Addresses": [],
+                    "MacAddress": "0a:bf:f3:0a:0b:c5",
+                    "NetworkInterfaceId": "eni-0099b484449337e06",
+                    "OwnerId": "727192091970",
+                    "PrivateDnsName": "ip-172-31-13-141.us-west-2.compute.internal",
+                    "PrivateIpAddress": "172.31.13.141",
+                    "PrivateIpAddresses": [
+                        {
+                            "Primary": true,
+                            "PrivateDnsName": "ip-172-31-13-141.us-west-2.compute.internal",
+                            "PrivateIpAddress": "172.31.13.141"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Status": "in-use",
+                    "SubnetId": "subnet-018fdc6eaeb6dd60d",
+                    "VpcId": "vpc-037342eef51ca767e",
+                    "InterfaceType": "interface",
+                    "Operator": {
+                        "Managed": false
+                    }
+                }
+            ],
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SecurityGroups": [
+                {
+                    "GroupId": "sg-0934e9aab8c89096a",
+                    "GroupName": "launch-wizard-1"
+                }
+            ],
+            "SourceDestCheck": true,
+            "StateReason": {
+                "Code": "pending",
+                "Message": "pending"
+            },
+            "VirtualizationType": "hvm",
+            "CpuOptions": {
+                "CoreCount": 1,
+                "ThreadsPerCore": 1
+            },
+            "CapacityReservationSpecification": {
+                "CapacityReservationPreference": "open"
+            },
+            "MetadataOptions": {
+                "State": "pending",
+                "HttpTokens": "optional",
+                "HttpPutResponseHopLimit": 1,
+                "HttpEndpoint": "enabled",
+                "HttpProtocolIpv6": "disabled",
+                "InstanceMetadataTags": "disabled"
+            },
+            "EnclaveOptions": {
+                "Enabled": false
+            },
+            "BootMode": "uefi-preferred",
+            "PrivateDnsNameOptions": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "MaintenanceOptions": {
+                "AutoRecovery": "default"
+            },
+            "CurrentInstanceBootMode": "legacy-bios",
+            "Operator": {
+                "Managed": false
+            },
+            "InstanceId": "i-03fd7e4f31fe697e5",
+            "ImageId": "ami-0dea9506c8cc2bb05",
+            "State": {
+                "Code": 0,
+                "Name": "pending"
+            },
+            "PrivateDnsName": "ip-172-31-13-141.us-west-2.compute.internal",
+            "PublicDnsName": "",
+            "StateTransitionReason": "",
+            "KeyName": "unir",
+            "AmiLaunchIndex": 0,
+            "ProductCodes": [],
+            "InstanceType": "t2.micro",
+            "LaunchTime": "2024-11-26T05:41:42+00:00",
+            "Placement": {
+                "GroupName": "",
+                "Tenancy": "default",
+                "AvailabilityZone": "us-west-2c"
+            },
+            "Monitoring": {
+                "State": "disabled"
+            },
+            "SubnetId": "subnet-018fdc6eaeb6dd60d",
+            "VpcId": "vpc-037342eef51ca767e",
+            "PrivateIpAddress": "172.31.13.141"
+        }
+    ]
+}
